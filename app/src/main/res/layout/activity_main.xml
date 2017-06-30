@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:slideswitch="http://schemas.android.com/apk/res/com.ccr.achengswitchbutton"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.ccr.switchbuttonlibrary.ASwitchButton
+        android:id="@+id/switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.ccr.switchbuttonlibrary.ASwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_checked="true"/>
+
+
+    <com.ccr.switchbuttonlibrary.ASwitchButton
+        android:id="@+id/checkbox"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_show_indicator="false"
+        app:sb_checked_color="#5151fd"
+        app:sb_checked="true"/>
+
+    <com.ccr.switchbuttonlibrary.ASwitchButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_checked_color="#fdc951"
+        app:sb_checked="true"/>
+
+    <com.ccr.switchbuttonlibrary.ASwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_button_color="#db99c7"
+        app:sb_shadow_color="#A36F95"
+        app:sb_background="#FFF"
+        app:sb_checkline_color="#a5dc88"
+        app:sb_checked_color="#A36F95"
+        app:sb_uncheckcircle_color="#A36F95"
+        />
+
+    <com.ccr.switchbuttonlibrary.ASwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_enable_effect="false"/>
+
+    <com.ccr.switchbuttonlibrary.SlideSwitch
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        slideswitch:shape="circle"
+        slideswitch:isOpen="true"
+        slideswitch:themeColor="#ffee3a00" />
+
+</LinearLayout>
